@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.shadow-one{
+    box-shadow: 0 0 3px #000;
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.bg-one {
+    background: linear-gradient(120deg,
+            rgba(127, 179, 213, 0.5),
+            rgba(211, 84, 0, 0.2));
+}
+.navbar {
+    background: #2471A3;
+}
+.brand-logo img {
+    filter: grayscale(1);
+    opacity: 50%;
+    width: 150px;
+}
+
+.brand-logo img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.tw2 {
+    font-size: 100px;
+}
+
+.fa-3x {
+    height: 50px;
+    width: 50px;
+    background: red;
+    border-radius: 50%;
+    padding: 15px;
+    color: #fff;
+}
+
+.card-body {
+    background: #D7D695;
+    transition: 0.5s;
+}
+
+.card {
+    border: none;
+}
+
+.card-body.active,
+.card-body:hover {
+    background: #333;
+    transition: 0.5s;
+}
+
+.card-body.active a,
+.card-body:hover a {
+    color: #fff;
+}
+
+.card-body a:hover {
+    color: coral;
+}
+
+.none {
+    visibility: hidden;
+
+}
+
+.card-body.active .none,
+.card-body:hover .none {
+    visibility: visible;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.progress {
+    height: 5px;
+}
+
+.gradient-1 {
+    height: 5px;
+    background: linear-gradient(20deg,#229954, #ABEBC6);
+}
+
+.hover-text {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    bottom: -70%;
+    visibility: hidden;
+    transition: 0.5s;
+    opacity: 0;
+}
+.hover-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    transition: 0.5s;
+    opacity: 0;
+    background: rgba(40, 55, 71, 0.6);
+}
+.card:hover .hover-bg{
+    visibility: visible;
+    opacity: 1;
+}
+.card:hover .hover-text {
+    visibility: visible;
+    bottom: 0;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.card img {
+    transition: 0.5s;
+}
+.ido{
+    background: #A9CCE3;
+}
+.ido-icon{
+    position: absolute;
+    top: 30%;
+    left: -25px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #fff;
+    color: red;
+    box-shadow: 0 0 3px #000;
+    padding: 10px;
+}
+.ido-text:hover .ido-icon{
+    background: red;
+    color: #fff;
+}
+.test-icon{
+    position: absolute;
+    top: 14%;
+    left: -24px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #fff;
+    color: red;
+    box-shadow: 0 0 3px #000;
+    padding: 10px;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: red;
+    height: 10px;
+}
+.svg-inline--fa{
+    height: 20px;
+    width: 20px;
+    background-color: #5D6D7E;
+    border-radius: 50%;
+    padding: 15px;
+    color: #fff;
+ }
+ .svg-inline--fa:hover{
+    background: red;
+    cursor: pointer;
+ }
+ .fa-bootstrap{
+    background: transparent;
+    border: 2px solid red;
+    border-radius: 10px;
+ }
+ .showNav{
+     visibility: hidden;
+ }
+
+
+.navbar-toggler{
+    background: #fff;
+}
+form .btn:hover{
+background: #229954 !important;
+}
