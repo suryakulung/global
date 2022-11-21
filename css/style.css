@@ -2,6 +2,8 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     outline: 0 !important;
+    margin: 0;
+    padding: 0;
 }
 :root {
     --bg-primary:#0E629E;
